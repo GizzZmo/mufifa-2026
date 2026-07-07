@@ -2,6 +2,11 @@
 
 ![μFIFA World Cup 2026](docs/assets/mufifa-banner.jpg)
 
+[![μFIFA Profile Validator](https://github.com/GizzZmo/mufifa-2026/actions/workflows/validate-profile.yml/badge.svg)](https://github.com/GizzZmo/mufifa-2026/actions/workflows/validate-profile.yml)
+[![Discord](https://img.shields.io/discord/771670169691881483?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.com/channels/771670169691881483/1157030408874106991)
+[![License](https://img.shields.io/github/license/GizzZmo/mufifa-2026?color=blue)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#)
+
 </div>
 
 ---
@@ -149,6 +154,18 @@ python3 scripts/validate_profile.py profile/yourname@mulearn.md
 ```
 
 The same check runs on every PR via GitHub Actions.
+
+---
+
+## 🗺️ Multi-Paradigm Multi-Language (MPML) System Roadmap
+
+We are scaling μFIFA 2026 into a full-featured, automated tournament engine. Check out our **[Multi-Paradigm Multi-Language System Roadmap](./docs/ROADMAP.md)** to see how we plan to integrate:
+* **Multi-Paradigm Validation Models**: Declarative, functional, and object-oriented validation rules.
+* **Multi-Language Sandbox**: Auto-grading pipelines for Python, Node.js (TS/JS), Bash, Go, and Rust.
+* **CI/CD Automation & Badges**: Dynamic SVG badges pushed to dashboards and automated PR preview generation.
+* **Assets & Build Artifacts**: Exportable participant portfolios and JSON leaderboard CDN data feeds.
+
+Contributions to the validator infrastructure are highly encouraged!
 
 ---
 
