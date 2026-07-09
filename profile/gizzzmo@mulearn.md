@@ -1,9 +1,9 @@
-# Jon-Arve Constantine Grønsebrg-Ovesen (Full Stack Developer)
+# Jon-Arve Constantine Grønsberg-Ovesen (Full Stack Developer)
 ### Squad Domain: Coder | FIFA Nation: Norway
 
 ### About Me
 
-> I am Jon-Arve Constantine Grønsebrg-Ovesen, a veteran Full Stack Developer, cyberpunk technologist, and creative AI innovator from Eidsvoll, Norway. With programming experience dating back to the mid-1980s, I specialize in local-first software, agentic AI, professional DSP/audio tools, and robust security engineering. I love building highly functional, secure, and creative applications that bridge the gap between complex engineering, beautiful user experiences, and innovative technology.
+> I am Jon-Arve Constantine Grønsberg-Ovesen, a veteran Full Stack Developer, cyberpunk technologist, and creative AI innovator from Eidsvoll, Norway. With programming experience dating back to the mid-1980s, I specialize in local-first software, agentic AI, professional DSP/audio tools, and robust security engineering. I love building highly functional, secure, and creative applications that bridge the gap between complex engineering, beautiful user experiences, and innovative technology.
 
 ---
 
