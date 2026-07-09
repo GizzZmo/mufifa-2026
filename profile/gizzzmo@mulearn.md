@@ -79,6 +79,7 @@
 
 - Decades of self-taught and professional development experience beginning in the mid-1980s.
 - GitHub profile showcasing an extensive collection of code repositories and technical proof of work: [GizzZmo](https://github.com/GizzZmo).
+- LinkedIn profile for professional networking and career history: [Jon-Arve Constantine Grønsberg-Ovesen](https://www.linkedin.com/in/gizzzmo).
 
 #### History of Leadership:
 
