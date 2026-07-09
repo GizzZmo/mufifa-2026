@@ -13,11 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+      
+      - name: reviewdog / markdownlint
+        uses: reviewdog/action-markdownlint@v0
         with:
-          node-version: '20'
-      - name: Install markdownlint-cli
-        run: npm install -g markdownlint-cli
-      - name: Run markdownlint
-        run: markdownlint "profile/**/*.md" --disable MD013 MD033
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: added
+          fail_on_error: true
+          markdownlint_flags: "profile/**/*.md --disable MD013 MD033"
