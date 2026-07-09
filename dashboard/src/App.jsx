@@ -23,7 +23,6 @@ ChartJS.register(
 function App() {
   const [leaderboard, setLeaderboard] = useState([])
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
 
   useEffect(() => {
     // In a real environment, this would point to the gh-pages leaderboard.json
@@ -35,7 +34,7 @@ function App() {
         setLoading(false)
       } catch (err) {
         // Fallback for development if file not found locally
-        console.warn("Could not load from /leaderboard.json, using mock data", err)
+        console.warn("Could not load from leaderboard.json, using mock data", err)
         setLeaderboard([
           { rank: "1", name: "Sachin", domain: "Coder", nation: "India", points: "1000" },
           { rank: "2", name: "Jane", domain: "Designer", nation: "UK", points: "950" }
@@ -47,7 +46,6 @@ function App() {
   }, [])
 
   if (loading) return <div style={{ padding: '20px' }}>Loading...</div>
-  if (error) return <div style={{ padding: '20px', color: 'red' }}>Error: {error}</div>
 
   const chartData = {
     labels: leaderboard.map(p => p.name),
