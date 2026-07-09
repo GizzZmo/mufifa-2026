@@ -146,7 +146,7 @@ Every profile is automatically validated, both locally before you commit and on 
 sh scripts/install-hooks.sh
 ```
 
-Every time you `git commit` a profile file, the validator and `markdownlint` run automatically and blocks the commit with a clear message if anything's wrong.
+Every time you `git commit` a profile file, the validator and `markdownlint` run automatically and block the commit with a clear message if anything's wrong.
 
 **Run the validator manually:**
 
