@@ -17,7 +17,7 @@
 
 #### Supporting Team in the Real World Cup 2026:
 
-- Norway, supporting them with absolute loyalty in the actual FIFA World Cup 2026. If they don't qualify or make it through, splitting loyalties to support Germany or another tactical powerhouse is always an option.
+- Supporting Norway internationally. If they are not present in the tournament stages of the actual FIFA World Cup 2026, fallback support will be split with a tactical powerhouse like Germany.
 
 #### All-Time Favourite Player:
 
@@ -79,7 +79,6 @@
 
 - Decades of self-taught and professional development experience beginning in the mid-1980s.
 - GitHub profile showcasing an extensive collection of code repositories and technical proof of work: [GizzZmo](https://github.com/GizzZmo).
-- LinkedIn profile for professional networking and career history: [Jon-Arve Constantine Grønsberg-Ovesen](https://www.linkedin.com/in/gizzzmo).
 
 #### History of Leadership:
 
