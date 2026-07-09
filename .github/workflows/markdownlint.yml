@@ -8,6 +8,10 @@ on:
     paths:
       - 'profile/**/*.md'
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   markdownlint:
     runs-on: ubuntu-latest

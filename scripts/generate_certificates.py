@@ -2,7 +2,7 @@
 import json
 import os
 import argparse
-from jinja2 import Environment, FileSystemPathLoader, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader
 import pdfkit
 from Crypto.PublicKey import RSA
 from Crypto.Hash import SHA256

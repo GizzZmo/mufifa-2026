@@ -5,6 +5,9 @@ on:
   release:
     types: [created]
 
+permissions:
+  contents: write
+
 jobs:
   build-certificates:
     runs-on: ubuntu-latest
@@ -26,8 +29,6 @@ jobs:
 
       - name: Download Leaderboard Data
         run: |
-          # Try to download the leaderboard from the pages branch or extract it from the artifact
-          # As a fallback, we will generate it from docs/LEADERBOARD.md
           python3 scripts/generate_badges.py --input docs/LEADERBOARD.md --output /tmp/badges
 
       - name: Generate Certificates
