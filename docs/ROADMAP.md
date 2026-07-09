@@ -88,14 +88,14 @@ Every workflow run generates reusable, structured outputs:
 ```
 
 ### 📍 Phase 1: Foundation & Standardization (Short-term)
-* [ ] **Pre-commit Hook v2**: Upgrade git hooks to support fast, incremental, local linting of non-staged files.
-* [ ] **Strict Markdown Conformance**: Introduce automated linters (e.g., `markdownlint`) to standardize layout across all `/profile` cards.
-* [ ] **Automated Lint Checkers**: Deploy GitHub Actions workflows that verify standard formats for URLs, image dimensions, and email addresses.
+* [x] **Pre-commit Hook v2**: Upgrade git hooks to support fast, incremental, local linting of non-staged files.
+* [x] **Strict Markdown Conformance**: Introduce automated linters (e.g., `markdownlint`) to standardize layout across all `/profile` cards.
+* [x] **Automated Lint Checkers**: Deploy GitHub Actions workflows that verify standard formats for URLs, image dimensions, and email addresses.
 
 ### 📍 Phase 2: Dynamic Engine & Gamification (Medium-term)
-* [ ] **Dynamic SVG Badge Generator**: Create a Python command-line utility inside the CI pipeline that reads `docs/LEADERBOARD.md` or a central DB and writes custom badges for top performers (e.g., `sachinrajm-gold-coder.svg`).
-* [ ] **Multi-Language Testing Sandbox**: Introduce standard testing templates where participants can write unit tests in JavaScript, Go, Python, or Rust. The CI compiles, executes, and grades these tests automatically.
-* [ ] **JSON Data Artifact Pipeline**: Periodically generate `leaderboard.json` as a CI build artifact, hosting it on GitHub Pages to serve as an API backend.
+* [x] **Dynamic SVG Badge Generator**: Create a Python command-line utility inside the CI pipeline that reads `docs/LEADERBOARD.md` or a central DB and writes custom badges for top performers (e.g., `sachinrajm-gold-coder.svg`).
+* [x] **Multi-Language Testing Sandbox**: Introduce standard testing templates where participants can write unit tests in JavaScript, Go, Python, or Rust. The CI compiles, executes, and grades these tests automatically.
+* [x] **JSON Data Artifact Pipeline**: Periodically generate `leaderboard.json` as a CI build artifact, hosting it on GitHub Pages to serve as an API backend.
 
 ### 📍 Phase 3: Live Ecosystem & Integrations (Long-term)
 * [ ] **Automatic Pull Request Reviewer**: Integrate an AI-based or rules-based code review bot that leaves inline comments on PR code flaws or security issues.

@@ -138,6 +138,7 @@ Every profile is automatically validated, both locally before you commit and on 
 | Section content | Sections must not contain only placeholder text |
 | Profile Card | Embed must use your actual MUID |
 | MUID consistency | Filename and embed MUID must match |
+| Markdown Formatting | Strict conformance to standard Markdown rules via `markdownlint` |
 
 **Set up the pre-commit hook** (one time, after cloning):
 
@@ -145,7 +146,7 @@ Every profile is automatically validated, both locally before you commit and on 
 sh scripts/install-hooks.sh
 ```
 
-Every time you `git commit` a profile file, the validator runs automatically and blocks the commit with a clear message if anything's wrong.
+Every time you `git commit` a profile file, the validator and `markdownlint` run automatically and blocks the commit with a clear message if anything's wrong.
 
 **Run the validator manually:**
 
@@ -157,9 +158,19 @@ The same check runs on every PR via GitHub Actions.
 
 ---
 
+## 🚀 Live Gamification & Automated Assets (Phases 1 & 2 Complete)
+
+The tournament has now integrated the following automated features from our Roadmap:
+* **Strict Markdown Conformance**: Uses `markdownlint` in our CI and pre-commit hooks to keep all profiles perfectly formatted.
+* **Dynamic SVG Badges**: Our CI automatically reads `docs/LEADERBOARD.md` and generates custom high-quality SVG badges for performers, deployed directly to GitHub Pages.
+* **Leaderboard Data Feed**: A `leaderboard.json` feed is periodically generated, allowing community developers to build their own live dashboards.
+* **Multi-Language Testing Sandbox**: GitHub workflows now support running and grading unit tests in Python, Node.js, Go, and Rust.
+
+---
+
 ## 🗺️ Multi-Paradigm Multi-Language (MPML) System Roadmap
 
-We are scaling μFIFA 2026 into a full-featured, automated tournament engine. Check out our **[Multi-Paradigm Multi-Language System Roadmap](./docs/ROADMAP.md)** to see how we plan to integrate:
+We are scaling μFIFA 2026 into a full-featured, automated tournament engine. Phase 1 & 2 are complete! Check out our **[Multi-Paradigm Multi-Language System Roadmap](./docs/ROADMAP.md)** to see our progress and what's next in Phase 3:
 * **Multi-Paradigm Validation Models**: Declarative, functional, and object-oriented validation rules.
 * **Multi-Language Sandbox**: Auto-grading pipelines for Python, Node.js (TS/JS), Bash, Go, and Rust.
 * **CI/CD Automation & Badges**: Dynamic SVG badges pushed to dashboards and automated PR preview generation.
