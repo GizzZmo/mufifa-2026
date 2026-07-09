@@ -1,6 +1,8 @@
 name: Generate Performance Badges
 
 on:
+  schedule:
+    - cron: '0 0 * * 5' # Every Friday
   push:
     branches:
       - main
