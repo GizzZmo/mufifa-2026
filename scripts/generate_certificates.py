@@ -51,7 +51,8 @@ def main():
             points=player["points"]
         )
         
-        pdf_filename = f"{player['name'].lower().replace(' ', '-')}-certificate.pdf"
+        safe_name = ''.join(ch if ch.isalnum() else '-' for ch in player['name'].lower()).strip('-') or 'player'
+        pdf_filename = f"{safe_name}-certificate.pdf"
         pdf_path = os.path.join(args.output, pdf_filename)
         
         options = {
