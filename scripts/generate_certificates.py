@@ -10,11 +10,8 @@ from Crypto.Signature import pkcs1_15
 
 def generate_key_pair(output_dir):
     key = RSA.generate(2048)
-    private_key = key.export_key()
     public_key = key.publickey().export_key()
-    
-    with open(os.path.join(output_dir, "private.pem"), "wb") as f:
-        f.write(private_key)
+
     with open(os.path.join(output_dir, "public.pem"), "wb") as f:
         f.write(public_key)
     return key
