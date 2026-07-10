@@ -29,7 +29,7 @@ function App() {
     // For development, we might mock it or point to the raw URL
     const fetchLeaderboard = async () => {
       try {
-        const response = await axios.get('leaderboard.json')
+        const response = await axios.get(`${import.meta.env.BASE_URL}leaderboard.json`)
         setLeaderboard(response.data.leaderboard || [])
         setLoading(false)
       } catch (err) {
