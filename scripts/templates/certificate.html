@@ -17,10 +17,10 @@
     <div class="certificate">
         <div class="title">Certificate of Achievement</div>
         <div class="subtitle">This certifies that</div>
-        <div class="name">{{ name }}</div>
-        <div class="domain">has demonstrated outstanding performance in the {{ domain }} domain.</div>
+        <div class="name">{{ name | e }}</div>
+        <div class="domain">has demonstrated outstanding performance in the {{ domain | e }} domain.</div>
         <div class="details">
-            Rank: {{ rank }} | Nation: {{ nation }} | Points: {{ points }}<br><br>
+            Rank: {{ rank | e }} | Nation: {{ nation | e }} | Points: {{ points | e }}<br><br>
             μFIFA World Cup 2026
         </div>
     </div>
