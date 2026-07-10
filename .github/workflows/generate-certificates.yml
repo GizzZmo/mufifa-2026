@@ -45,4 +45,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: player-signatures
-          path: ./certificates/*.sig
+          path: |
+            ./certificates/*.sig
+            ./certificates/public.pem
