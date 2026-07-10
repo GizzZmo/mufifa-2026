@@ -98,9 +98,9 @@ Every workflow run generates reusable, structured outputs:
 * [x] **JSON Data Artifact Pipeline**: Periodically generate `leaderboard.json` as a CI build artifact, hosting it on GitHub Pages to serve as an API backend.
 
 ### 📍 Phase 3: Live Ecosystem & Integrations (Long-term)
-* [ ] **Automatic Pull Request Reviewer**: Integrate an AI-based or rules-based code review bot that leaves inline comments on PR code flaws or security issues.
-* [ ] **Automated Certificate and Trophy Generation**: Compile proof of work into beautiful PDF certificates and signed cryptographic credentials, published as release artifacts upon tournament completion.
-* [ ] **Full Tournament Dashboard**: Create an open-source, interactive React/Svelte site that fetches JSON artifacts directly from this repository's GitHub Pages, rendering live leaderboards, charts, and squad rosters.
+* [x] **Automatic Pull Request Reviewer**: Integrate an AI-based or rules-based code review bot that leaves inline comments on PR code flaws or security issues.
+* [x] **Automated Certificate and Trophy Generation**: Compile proof of work into beautiful PDF certificates and signed cryptographic credentials, published as release artifacts upon tournament completion.
+* [x] **Full Tournament Dashboard**: Create an open-source, interactive React/Svelte site that fetches JSON artifacts directly from this repository's GitHub Pages, rendering live leaderboards, charts, and squad rosters.
 
 ---
 
