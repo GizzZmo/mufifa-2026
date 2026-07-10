@@ -158,19 +158,22 @@ The same check runs on every PR via GitHub Actions.
 
 ---
 
-## 🚀 Live Gamification & Automated Assets (Phases 1 & 2 Complete)
+## 🚀 Live Gamification & Automated Assets (Phases 1, 2 & 3 Complete)
 
 The tournament has now integrated the following automated features from our Roadmap:
 * **Strict Markdown Conformance**: Uses `markdownlint` in our CI and pre-commit hooks to keep all profiles perfectly formatted.
 * **Dynamic SVG Badges**: Our CI automatically reads `docs/LEADERBOARD.md` and generates custom high-quality SVG badges for performers, deployed directly to GitHub Pages.
 * **Leaderboard Data Feed**: A `leaderboard.json` feed is periodically generated, allowing community developers to build their own live dashboards.
 * **Multi-Language Testing Sandbox**: GitHub workflows now support running and grading unit tests in Python, Node.js, Go, and Rust.
+* **Automatic Pull Request Reviewer**: AI-based code review bot leaves inline comments on PR code flaws or security issues.
+* **Automated Certificate Generation**: Compiles proof of work into beautiful PDF certificates published as release artifacts.
+* **Full Tournament Dashboard**: An open-source, interactive React site fetching JSON artifacts for live leaderboards and charts.
 
 ---
 
 ## 🗺️ Multi-Paradigm Multi-Language (MPML) System Roadmap
 
-We are scaling μFIFA 2026 into a full-featured, automated tournament engine. Phase 1 & 2 are complete! Check out our **[Multi-Paradigm Multi-Language System Roadmap](./docs/ROADMAP.md)** to see our progress and what's next in Phase 3:
+We are scaling μFIFA 2026 into a full-featured, automated tournament engine. Phase 1, 2 & 3 are complete! Check out our **[Multi-Paradigm Multi-Language System Roadmap](./docs/ROADMAP.md)** to see our progress:
 * **Multi-Paradigm Validation Models**: Declarative, functional, and object-oriented validation rules.
 * **Multi-Language Sandbox**: Auto-grading pipelines for Python, Node.js (TS/JS), Bash, Go, and Rust.
 * **CI/CD Automation & Badges**: Dynamic SVG badges pushed to dashboards and automated PR preview generation.
