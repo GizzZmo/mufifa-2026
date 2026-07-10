@@ -69,7 +69,7 @@ def main():
             sign_pdf(pdf_path, key)
             print(f"Generated and signed certificate for {player['name']}")
         except Exception as e:
-            print(f"Could not generate PDF for {player['name']}: {e}")
+            raise RuntimeError(f"Could not generate PDF for {player['name']}: {e}") from e
 
 if __name__ == "__main__":
     main()
