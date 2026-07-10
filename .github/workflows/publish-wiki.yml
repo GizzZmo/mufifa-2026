@@ -34,7 +34,7 @@ jobs:
             echo "# μFIFA 2026 Wiki" > Home.md
             git add Home.md
             git commit -m "Initialize wiki"
-            git push origin HEAD:master
+            git push origin HEAD
           fi
 
       - name: Publish to GitHub Wiki
