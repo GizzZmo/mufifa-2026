@@ -101,7 +101,4 @@
 
 <!-- Paste your μLearn embed link below; get it from Discord using /get-embed-link -->
 
-<img
-    src="https://mulearn.org/embed/rank/gizzzmo@mulearn"
-    width="400px">
-</img>
+<img src="https://mulearn.org/embed/rank/gizzzmo@mulearn" width="400" alt="μLearn profile card for gizzzmo@mulearn" />
